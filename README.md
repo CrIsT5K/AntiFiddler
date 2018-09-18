@@ -4,5 +4,5 @@ Code:
  WebRequest wr = WebRequest.Create(URL); //Create WebRequest
             wr.Proxy = null; //This's the method to bypass missconfigured fiddler, fiddler need proxy to intercept/debug if proxy = null, he can't intercept
             string html = new System.IO.StreamReader(wr.GetResponse().GetResponseStream()).ReadToEnd(); //get Html
-  ```
-Thisn't full solution.
+  ``` 
+  This isn't the full solution.
