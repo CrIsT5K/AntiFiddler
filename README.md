@@ -1,7 +1,4 @@
-Many have problems with fiddler, 
-for example you need to send sensitive information to the web server,
-or for example receive something important from the server and fiddler simply manipulates your request,
-I will be making available a simple method to disrupt the fiddler, which can be useful against those who do not have much knowledge.
+Many people have problems with fiddler, for example you need to send important information to the web server, or for example receive something important data from the server and fiddler simply manipulates your request, I will be making available a simple method to block fiddler, which can be useful against those who do not have much knowledge. Code
 Code:
 ```csharp
  WebRequest wr = WebRequest.Create(URL); //Create WebRequest
